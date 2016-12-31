@@ -1,0 +1,19 @@
+{
+  "name": "assignment1-solution",
+  "version": "1.0.0",
+  "description": "Solution for Assignment 1 of Coursera AngularJS course",
+  "main": "index.html",
+  "scripts": {
+    "test": "karma start",
+    "serve": "browser-sync start --server --directory --files \"**/*\""
+  },
+  "author": "Soham Banerjee <soham@renderbit.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.5",
+    "jasmine": "^2.5.2",
+    "karma": "^1.3.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.1.0"
+  }
+}

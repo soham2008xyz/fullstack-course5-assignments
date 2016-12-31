@@ -3,6 +3,7 @@
   <head>
     <meta name="charset" content="utf-8">
     <title>Lunch Checker</title>
+    <link rel="icon" href="favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles/bootstrap.min.css">
     <style>
@@ -20,7 +21,7 @@
       <!-- Empty items are not counted! -->
     </div>
     <div class="form-group">
-      <button class="btn btn-default" ng-click="checkIfTooMuch()">Check If Too Much</button>
+      <button class="btn btn-primary" ng-click="checkIfTooMuch()">Check If Too Much</button>
     </div>
     <div class="form-group message text-{{ colorClass }}">
       {{ message }}
