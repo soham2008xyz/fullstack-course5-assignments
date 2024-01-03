@@ -10,7 +10,7 @@
   "author": "Soham Banerjee <soham@renderbit.com>",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.18.5",
+    "browser-sync": "^3.0.2",
     "jasmine": "^5.0.0",
     "karma": "^6.4.1",
     "karma-chrome-launcher": "^3.1.1",
